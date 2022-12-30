@@ -1,0 +1,103 @@
+{
+    "id": "evt_3MJpLNSICZrnQHl215xQpFHk",
+    "object": "event",
+    "api_version": "2022-11-15",
+    "created": 1672194374,
+    "data": {
+        "object": {
+            "id": "ch_3MJpLNSICZrnQHl21GTIsFJY",
+            "object": "charge",
+            "amount": 1400,
+            "amount_captured": 1400,
+            "amount_refunded": 0,
+            "application": null,
+            "application_fee": null,
+            "application_fee_amount": null,
+            "balance_transaction": "txn_3MJpLNSICZrnQHl21lvHrnRN",
+            "billing_details": {
+                "address": {
+                    "city": "Boston",
+                    "country": "US",
+                    "line1": "Add Line 1",
+                    "line2": "Add Line 2",
+                    "postal_code": "02139",
+                    "state": "MA"
+                },
+                "email": "takemymoney@gmail.com",
+                "name": "Take Mymoney",
+                "phone": null
+            },
+            "calculated_statement_descriptor": "Stripe",
+            "captured": true,
+            "created": 1672194373,
+            "currency": "usd",
+            "customer": "cus_N3xEBwXaRDVHYL",
+            "description": "Subscription creation",
+            "destination": null,
+            "dispute": null,
+            "disputed": false,
+            "failure_balance_transaction": null,
+            "failure_code": null,
+            "failure_message": null,
+            "fraud_details": {},
+            "invoice": "in_1MJpLMSICZrnQHl2IKge5GmF",
+            "livemode": false,
+            "metadata": {},
+            "on_behalf_of": null,
+            "order": null,
+            "outcome": {
+                "network_status": "approved_by_network",
+                "reason": null,
+                "risk_level": "normal",
+                "risk_score": 0,
+                "seller_message": "Payment complete.",
+                "type": "authorized"
+            },
+            "paid": true,
+            "payment_intent": "pi_3MJpLNSICZrnQHl214I5NJgB",
+            "payment_method": "pm_1MJpLLSICZrnQHl2HimA2oUC",
+            "payment_method_details": {
+                "card": {
+                    "brand": "visa",
+                    "checks": {
+                        "address_line1_check": "pass",
+                        "address_postal_code_check": "pass",
+                        "cvc_check": "pass"
+                    },
+                    "country": "US",
+                    "exp_month": 1,
+                    "exp_year": 2042,
+                    "fingerprint": "WEv7YBYIUm8KdbaM",
+                    "funding": "debit",
+                    "installments": null,
+                    "last4": "5556",
+                    "mandate": null,
+                    "network": "visa",
+                    "three_d_secure": null,
+                    "wallet": null
+                },
+                "type": "card"
+            },
+            "receipt_email": null,
+            "receipt_number": null,
+            "receipt_url": "https://pay.stripe.com/receipts/invoices/CAcaFwoVYWNjdF8xTUhkMjJTSUNacm5RSGwyKMjSrp0GMgZFbgJO-DM6LBaiIITys4q-mh0qgKONAlYyALCG58EFD47PDPR_y_ep8CtgyTjZmuGDZE-3?s=ap",
+            "refunded": false,
+            "review": null,
+            "shipping": null,
+            "source": null,
+            "source_transfer": null,
+            "statement_descriptor": null,
+            "statement_descriptor_suffix": null,
+            "status": "succeeded",
+            "transfer_data": null,
+            "transfer_group": null
+        }
+    },
+    "livemode": false,
+    "pending_webhooks": 2,
+    "request": {
+        "id": "req_kQICUMhy5dnJlK",
+        "idempotency_key": "982420a0-0870-4c5e-baf6-779f541a0fa3"
+    },
+    "type": "charge.succeeded"
+}

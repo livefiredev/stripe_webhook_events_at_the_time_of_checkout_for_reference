@@ -1,0 +1,90 @@
+{
+    "id": "evt_1MJpLRSICZrnQHl2vzRIa1QA",
+    "object": "event",
+    "api_version": "2022-11-15",
+    "created": 1672194376,
+    "data": {
+        "object": {
+            "id": "cs_test_a1EnoK0G6ujc6mMTMEiEuj6qLfiCglO9aSqNCnZqNR7clhGlIE7hjfISMi",
+            "object": "checkout.session",
+            "after_expiration": null,
+            "allow_promotion_codes": null,
+            "amount_subtotal": 1400,
+            "amount_total": 1400,
+            "automatic_tax": {
+                "enabled": false,
+                "status": null
+            },
+            "billing_address_collection": "auto",
+            "cancel_url": "http://localhost:3000?canceled=true",
+            "client_reference_id": null,
+            "consent": null,
+            "consent_collection": null,
+            "created": 1672194336,
+            "currency": "usd",
+            "custom_text": {
+                "shipping_address": null,
+                "submit": null
+            },
+            "customer": "cus_N3xEBwXaRDVHYL",
+            "customer_creation": null,
+            "customer_details": {
+                "address": {
+                    "city": "Boston",
+                    "country": "US",
+                    "line1": "Add Line 1",
+                    "line2": "Add Line 2",
+                    "postal_code": "02139",
+                    "state": "MA"
+                },
+                "email": "takemymoney@gmail.com",
+                "name": "Take Mymoney",
+                "phone": null,
+                "tax_exempt": "none",
+                "tax_ids": []
+            },
+            "customer_email": null,
+            "expires_at": 1672280735,
+            "invoice": "in_1MJpLMSICZrnQHl2IKge5GmF",
+            "invoice_creation": null,
+            "livemode": false,
+            "locale": null,
+            "metadata": {},
+            "mode": "subscription",
+            "payment_intent": null,
+            "payment_link": null,
+            "payment_method_collection": "always",
+            "payment_method_options": null,
+            "payment_method_types": [
+                "card"
+            ],
+            "payment_status": "paid",
+            "phone_number_collection": {
+                "enabled": false
+            },
+            "recovered_from": null,
+            "setup_intent": null,
+            "shipping_address_collection": null,
+            "shipping_cost": null,
+            "shipping_details": null,
+            "shipping_options": [],
+            "status": "complete",
+            "submit_type": null,
+            "subscription": "sub_1MJpLMSICZrnQHl2g5delzXK",
+            "success_url": "http://localhost:3000/?success=true",
+            "total_details": {
+                "amount_discount": 0,
+                "amount_shipping": 0,
+                "amount_tax": 0
+            },
+            "url": null
+        }
+    },
+    "livemode": false,
+    "pending_webhooks": 2,
+    "request": {
+        "id": null,
+        "idempotency_key": null
+    },
+    "type": "checkout.session.completed"
+}

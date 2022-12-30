@@ -1,0 +1,28 @@
+{
+    "id": "evt_1MJpMTSICZrnQHl20iibOgis",
+    "object": "event",
+    "api_version": "2022-11-15",
+    "created": 1672194441,
+    "data": {
+        "object": {
+            "id": "bps_1MJpMTSICZrnQHl2fdZtlNYV",
+            "object": "billing_portal.session",
+            "configuration": "bpc_1MIO9GSICZrnQHl2SAecWs3K",
+            "created": 1672194441,
+            "customer": "cus_N3xEBwXaRDVHYL",
+            "flow": null,
+            "livemode": false,
+            "locale": null,
+            "on_behalf_of": null,
+            "return_url": "http://localhost:3000/?back_from=billing",
+            "url": "https://billing.stripe.com/p/session/test_YWNjdF8xTUhkMjJTSUNacm5RSGwyLF9OM3hITTcxak1CRnhSWU1iVkthV2d1Qkc0UXI4S1Ez0100fEaDM3Ey"
+        }
+    },
+    "livemode": false,
+    "pending_webhooks": 2,
+    "request": {
+        "id": "req_fttVAjAqNdqgXO",
+        "idempotency_key": "22a7d65a-565b-4f2b-8a58-cba3e7a5e723"
+    },
+    "type": "billing_portal.session.created"
+}

@@ -1,0 +1,62 @@
+{
+    "id": "evt_1MJpLQSICZrnQHl2Yu7mCQYf",
+    "object": "event",
+    "api_version": "2022-11-15",
+    "created": 1672194375,
+    "data": {
+        "object": {
+            "id": "pm_1MJpLLSICZrnQHl2HimA2oUC",
+            "object": "payment_method",
+            "billing_details": {
+                "address": {
+                    "city": "Boston",
+                    "country": "US",
+                    "line1": "Add Line 1",
+                    "line2": "Add Line 2",
+                    "postal_code": "02139",
+                    "state": "MA"
+                },
+                "email": "takemymoney@gmail.com",
+                "name": "Take Mymoney",
+                "phone": null
+            },
+            "card": {
+                "brand": "visa",
+                "checks": {
+                    "address_line1_check": "pass",
+                    "address_postal_code_check": "pass",
+                    "cvc_check": "pass"
+                },
+                "country": "US",
+                "exp_month": 1,
+                "exp_year": 2042,
+                "fingerprint": "WEv7YBYIUm8KdbaM",
+                "funding": "debit",
+                "generated_from": null,
+                "last4": "5556",
+                "networks": {
+                    "available": [
+                        "visa"
+                    ],
+                    "preferred": null
+                },
+                "three_d_secure_usage": {
+                    "supported": true
+                },
+                "wallet": null
+            },
+            "created": 1672194371,
+            "customer": "cus_N3xEBwXaRDVHYL",
+            "livemode": false,
+            "metadata": {},
+            "type": "card"
+        }
+    },
+    "livemode": false,
+    "pending_webhooks": 2,
+    "request": {
+        "id": "req_kQICUMhy5dnJlK",
+        "idempotency_key": "982420a0-0870-4c5e-baf6-779f541a0fa3"
+    },
+    "type": "payment_method.attached"
+}
